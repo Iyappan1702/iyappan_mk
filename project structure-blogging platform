@@ -1,0 +1,25 @@
+blogging-platform/
+├── backend/
+│ ├── package.json
+│ ├── .env.example
+│ ├── index.js
+│ ├── models.js
+│ ├── routes/
+│ │ ├── auth.js
+│ │ ├── posts.js
+│ │ └── comments.js
+│ ├── middleware/auth.js
+│ └── seed.js
+└── frontend/
+ ├── package.json
+ ├── public/index.html
+ └── src/
+ ├── index.js
+ ├── App.js
+ ├── api.js
+ ├── components/
+ │ ├── Header.js
+ │ ├── PostList.js
+ │ ├── PostView.js
+ │ └── NewPost.js
+ └── styles.css
